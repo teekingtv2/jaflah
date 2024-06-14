@@ -31,7 +31,7 @@ const ProjectCard = ({ proj }) => {
           alt="Jaflaf Software Development Company"
           className="rounded-xl w-[100%] h-[100%] group-hover:scale-105 ease-in duration-300"
         />
-        <Link href={proj.url} target="__blank">
+        <Link href={proj.url} target="__blank" rel="nofollow">
           <div
             className="hidden group-hover:flex ease-in duration-500 absolute bottom-[10px] left-[20px] translate-y-[-20%] bg-white rounded-xl p-4 flex-col items-start "
             //   onClick={() => setMore(true)}
