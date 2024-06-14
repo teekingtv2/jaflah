@@ -39,9 +39,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta name="theme-color" content="#0c0c0c" />
-      <meta name="msapplication-navbutton-color" content="#0c0c0c" />
-      <meta content="#0c0c0c" name="msapplication-navbutton-color" />
+      <meta name="theme-color" content="#000000" />
+      <meta name="msapplication-navbutton-color" content="#000000" />
+      <meta content="#000000" name="msapplication-navbutton-color" />
       <meta content="yes" name="apple-mobile-web-app-capable" />
       <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
       <body className={poppins.className}>
